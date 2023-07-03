@@ -211,7 +211,7 @@ def main():
     audio_path = "C:\\path" + project_name + ".mp3" 
     
     out_video_path = video_in + "_edited.mp4"
-    csv_output_filename = "final_10sec_test.csv"
+    csv_output_filename = "single_word_timestamps.csv"
     delimiter_1 = 'start-codeword'.lower() # enter your start code-word
     delimiter_2 = 'end-codeword'.lower() # enter your end code-word
 
