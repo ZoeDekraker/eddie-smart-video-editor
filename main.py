@@ -205,16 +205,15 @@ def execute_shell_command(command):
 
 def main():
 
-    video_in = "C:\\Users\\ZoeJD\\Videos\\Zoe_D_YT\\10_sec_test"
+    video_in = "C:\\path"
     in_video_path = video_in + ".mp4" 
-    project_name = "final_10_sec_test"
-    audio_path = "C:\\Users\\ZoeJD\\Videos\\Zoe_D_YT\\" + project_name + ".mp3" 
+    project_name = "project_name"
+    audio_path = "C:\\path" + project_name + ".mp3" 
     
     out_video_path = video_in + "_edited.mp4"
     csv_output_filename = "final_10sec_test.csv"
-    delimiter_1 = 'africa'.lower() # user input
-    delimiter_2 = 'texas'.lower() # user input
-
+    delimiter_1 = 'start-codeword'.lower() # enter your start code-word
+    delimiter_2 = 'end-codeword'.lower() # enter your end code-word
 
     # run functions
     video_to_audio(in_video_path, audio_path)
