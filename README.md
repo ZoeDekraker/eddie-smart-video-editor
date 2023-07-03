@@ -28,7 +28,7 @@ False recording starts are also okay! It only matches the last occurrence of the
 
 ### Usage
 1. Open the script and configure the required settings such as the input file, output path, and codewords(delimeters).
-2. Run the script: main.py
+2. Run the script: main_script.py
 3. The script will process the video and output an edited video file with autoplay.
 
 ### License
